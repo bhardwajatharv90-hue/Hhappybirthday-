@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#160d25">
+  <title>A Little Birthday Magic ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="glow glow-one"></div><div class="glow glow-two"></div>
+  <main>
+    <section class="hero page-section" id="home">
+      <div class="eyebrow">✦ A little something made with love ✦</div>
+      <h1>Today is all about <span>you.</span></h1>
+      <p class="intro">A tiny corner of the internet, filled with big wishes, warm hugs, and a little birthday magic.</p>
+      <button class="primary-btn" id="openSurprise">Open your surprise <span>♡</span></button>
+      <div class="scroll-note">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="wish-section page-section" id="wishes">
+      <div class="section-kicker">01 / THE WISHES</div>
+      <h2>A whole universe<br>of <em>good things.</em></h2>
+      <p class="section-lead">May the coming year be gentle with your heart and generous with your dreams.</p>
+      <div class="wish-grid">
+        <article class="wish-card"><span>🌷</span><h3>Little joys</h3><p>May ordinary days surprise you with beautiful little moments.</p></article>
+        <article class="wish-card"><span>✨</span><h3>Big dreams</h3><p>May you find the courage to chase every dream that makes you feel alive.</p></article>
+        <article class="wish-card"><span>🫶</span><h3>Good people</h3><p>May you always be surrounded by people who make you feel seen and valued.</p></article>
+        <article class="wish-card"><span>🌙</span><h3>Peaceful nights</h3><p>May your mind feel lighter, your sleep be sweeter, and your heart feel safe.</p></article>
+        <article class="wish-card"><span>🍀</span><h3>Lucky moments</h3><p>May life bring unexpected opportunities and lovely plot twists.</p></article>
+        <article class="wish-card"><span>💗</span><h3>Endless love</h3><p>May you never forget how special, worthy, and appreciated you are.</p></article>
+      </div>
+    </section>
+
+    <section class="cake-section page-section" id="cake">
+      <div class="section-kicker">02 / MAKE A WISH</div>
+      <h2>Time for the <em>cake!</em></h2>
+      <p class="section-lead">Tap the cake to make a wish. Then press the knife button to cut it. 🎂</p>
+      <div class="cake-stage">
+        <div class="cake-glow"></div>
+        <div class="cake" id="cake">
+          <div class="candles">
+            <div class="candle"><i class="flame"></i></div><div class="candle"><i class="flame"></i></div><div class="candle"><i class="flame"></i></div>
+          </div>
+          <div class="top-icing"></div>
+          <div class="cake-layer top-layer"><span class="icing-drip"></span></div>
+          <div class="cake-layer bottom-layer"><span class="icing-drip"></span></div>
+          <div class="cake-plate"></div>
+          <div class="cake-sprinkles">✦　·　✧　·　✦</div>
+        </div>
+        <p class="cake-hint" id="cakeHint">Make a wish and tap the cake ✨</p>
+        <div class="cake-actions"><button class="secondary-btn" id="wishBtn">Make a wish ✨</button><button class="primary-btn" id="cutBtn">🔪 Cut the cake</button></div>
+      </div>
+      <p class="cut-message" id="cutMessage" aria-live="polite"></p>
+    </section>
+
+    <section class="letter-section page-section" id="letter">
+      <div class="section-kicker">03 / FROM THE HEART</div>
+      <div class="letter">
+        <div class="letter-top">A little note for you <span>♡</span></div>
+        <h2>Some people make<br>the world feel <em>brighter.</em></h2>
+        <p>On your birthday, I hope you pause for a moment and realise just how much you matter. You deserve the kind of happiness that stays, the kind of laughter that makes your cheeks hurt, and the kind of love that never makes you question your worth.</p>
+        <p>I hope this new chapter brings you closer to everything you've been quietly wishing for. I hope you keep discovering new reasons to smile, keep growing into the person you want to be, and never lose the lovely things that make you uniquely you.</p>
+        <p>Even on days when things don't go as planned, remember that one difficult day can never define your whole story. You are allowed to take your time, start again, change your mind, and dream bigger.</p>
+        <p>So here's to more adventures, more silly laughs, more late-night conversations, more little victories, and memories that you'll look back on with the biggest smile.</p>
+        <p class="signoff">Have the happiest birthday. You deserve so much good. <span>♡</span></p>
+      </div>
+    </section>
+
+    <section class="final-section page-section">
+      <div class="big-heart">♥</div>
+      <h2>Keep shining,<br><em>always.</em></h2>
+      <p>May this year be your favourite one yet.</p>
+      <div class="final-line">MADE WITH A LITTLE EXTRA LOVE ✦</div>
+      <button class="text-btn" id="celebrateBtn">One more little celebration ✨</button>
+    </section>
+  </main>
+  <div class="toast" id="toast">A wish has been sent to the universe ✨</div>
+  <script src="script.js"></script>
+</body>
+</html>
